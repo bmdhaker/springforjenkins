@@ -1,3 +1,3 @@
 FROM java:8
-COPY ./target/demo1-0.0.1-SNAPSHOT.jar demo1-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java", "-jar", "demo1-0.0.1-SNAPSHOT.jar"]
+COPY ./target/demojenkins-0.0.1-SNAPSHOT.jar demojenkins-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "demojenkins-0.0.1-SNAPSHOT.jar"]
